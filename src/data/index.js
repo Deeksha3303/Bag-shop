@@ -4,7 +4,7 @@ export const products = [
         name: "Veterinary services",
         price: 129.99,
         description: "Torem ipsum dolor sit amet, consectetur adipisicing elitsed do eiusmo tempor incididunt ut labore et dolore magna",
-        image:"images/banner/products/bag_01.png",
+        image:"images/banner/products/bag_01.jpeg",
         
        
     },
