@@ -28,14 +28,14 @@ export const products = [
         name: "Pet Training",
         price: 129.99,
         description: "Torem ipsum dolor sit amet, consectetur adipisicing elitsed do eiusmo tempor incididunt ut labore et dolore magna",
-        image: "images/banner/products/bag_04.png"
+        image: "images/banner/products/bag_04.jpg"
     },
     {
         id: 5,
         name: "Nutrition and Diet Services",
         price: 399.99,
         description: "Torem ipsum dolor sit amet, consectetur adipisicing elitsed do eiusmo tempor incididunt ut labore et dolore magna",
-        image: "images/banner/products/bag_05.png"
+        image: "images/banner/products/bag_05.jpeg"
     },
     {
         id: 6,
