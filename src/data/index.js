@@ -1,7 +1,7 @@
 export const products = [
     {
         id: 1,
-        name: "Super Backpack",
+        name: "Veterinary services",
         price: 129.99,
         description: "Torem ipsum dolor sit amet, consectetur adipisicing elitsed do eiusmo tempor incididunt ut labore et dolore magna",
         image:"images/banner/products/bag_01.png",
