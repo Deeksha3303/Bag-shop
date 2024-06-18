@@ -11,18 +11,6 @@ export default function AppBarDesktop({matches}){
     return(
         <AppbarContainer>
             <Appheader color={"#d1adcc"}>Pawprints</Appheader>
-            <MyList type= "row">
-                <ListItemText primary="Home"></ListItemText>
-                <ListItemText primary="Categories"></ListItemText>
-                <ListItemText primary="Products"></ListItemText>
-                <ListItemText primary="About us"></ListItemText>
-                <ListItemText primary="Contact Us"></ListItemText>
-            <ListItemButton>
-                <ListItemIcon  onClick={()=>setSearchBox(true)}>
-                <SearchIcon></SearchIcon>
-                </ListItemIcon>
-            </ListItemButton>
-            </MyList>
             <Actions matches={matches}></Actions>
         </AppbarContainer>
     )
