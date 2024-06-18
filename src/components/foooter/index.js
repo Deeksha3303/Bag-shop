@@ -20,11 +20,13 @@ import SendIcon from '@mui/icons-material/Send';
       <Grid container spacing={2}  justifyContent={"center"}>
         <Grid item md={6} lg={4}>
             <FooterTitle variant="body">
-                about us
             </FooterTitle>
             <br></br>
             <Typography variant="caption2">
-             Our experienced team provides exceptional, compassionate care to keep your pets healthy and happy.
+             Pawprints Petclinic
+             #69, 17th cross, 2nd main
+             Dollars colony
+             Bengaluru - 560094
             Trust us for comprehensive veterinary services tailored to your pet's unique needs.
             </Typography>
             <Box sx={{mt:4,color:Colors.dove_gray}}>
@@ -36,9 +38,9 @@ import SendIcon from '@mui/icons-material/Send';
         <Grid item md={6} lg={2}>
             <FooterTitle variant="body1">information</FooterTitle>
             <List>
-                <ListItemText><Typography lineHeight={2} variant="caption2"> about us</Typography></ListItemText>
-                <ListItemText><Typography lineHeight={2} variant="caption2"> contact us us</Typography></ListItemText>
-                <ListItemText><Typography lineHeight={2} variant="caption2"> Privacy &amp;policy us</Typography></ListItemText>
+                <ListItemText><Typography lineHeight={2} variant="caption2"> Insta id - pawprintsclinic</Typography></ListItemText>
+                <ListItemText><Typography lineHeight={2} variant="caption2"> Contact us - 9875347609 </Typography></ListItemText>
+                <ListItemText><Typography lineHeight={2} variant="caption2"> Privacy &amp;policies</Typography></ListItemText>
                 <ListItemText><Typography lineHeight={2} variant="caption2"> Terms &amp; conditions</Typography></ListItemText>
             </List>
             
