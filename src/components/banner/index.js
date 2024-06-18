@@ -12,9 +12,9 @@ export default function Banner(){
         <BannerContainer>
             <BannerImage src="/images/banner/banner.png"></BannerImage>
             <BannerContent>
-                <Typography variant="h6">Huge collection</Typography>
+                <Typography variant="h6"> </Typography>
                 <BannerTitle variant="h2">
-                    New Bags
+                    
                 </BannerTitle>
                 <BannerDescription variant="subtitle">
                    
