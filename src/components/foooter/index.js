@@ -23,12 +23,11 @@ import SendIcon from '@mui/icons-material/Send';
             </FooterTitle>
             <br></br>
             <Typography variant="caption2">
-             Pawprints Petclinic
-             #69, 17th cross, 2nd main
-             Dollars colony
-             Bengaluru - 560094
-            Trust us for comprehensive veterinary services tailored to your pet's unique needs.
-            </Typography>
+             Pawprints Petclinic<br />
+             #73, 14th cross, 3rd main<br />
+             Dollars colony<br />
+             Bengaluru - 560094<br />
+             Trust us for comprehensive veterinary services tailored to your pet's unique needs.
             <Box sx={{mt:4,color:Colors.dove_gray}}>
                 <FacebookOutlinedIcon sx={{mr:1}}></FacebookOutlinedIcon>
                 <TwitterIcon sx={{mr:1}}></TwitterIcon>
