@@ -36,7 +36,7 @@ export default function SingleProduct ({product, matches}){
                 </ProductActionButton>
                 </Stack>
             </ProductActionsWrapper>
-            <ProductAddToCart > Add to cart</ProductAddToCart>
+            <ProductAddToCart > BOOK </ProductAddToCart>
             
         </Product>
         
