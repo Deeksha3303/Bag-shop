@@ -10,7 +10,7 @@ export default function AppBarDesktop({matches}){
     const {setSearchBox}= ContexUi();
     return(
         <AppbarContainer>
-            <Appheader color={"#d1adcc"}>My Bags</Appheader>
+            <Appheader color={"#d1adcc"}>Pawprints</Appheader>
             <MyList type= "row">
                 <ListItemText primary="Home"></ListItemText>
                 <ListItemText primary="Categories"></ListItemText>
