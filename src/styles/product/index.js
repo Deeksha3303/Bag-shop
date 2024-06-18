@@ -32,16 +32,6 @@ export const Product = styled(Box)(({ theme }) => ({
     margin: 4,
   }));
   
-  export const ProductFavButton = styled(ProductActionButton,{
-    shouldForwardProp: (prop) => prop !== "isfav",
-  })(({ isfav, theme }) => ({
-    color: isfav ? Colors.primary : Colors.light,  
-    [theme.breakpoints.up("md")]: {
-      position: "absolute",
-      right: 0,
-      top: 0,
-    },
-  }));
   
   export const ProductAddToCart = styled(Button, {
     shouldForwardProp: (prop) => prop !== "show",
