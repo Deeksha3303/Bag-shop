@@ -13,11 +13,11 @@ export default function SingleProduct ({product, matches}){
 
     return (
     <>
-      
-    <Product >
-            <ProductAddToCart > BOOK </ProductAddToCart>
-            
-        </Product>
+  <Product>
+        <ProductImage src={product.image}></ProductImage>
+        <ProductMeta product={product} matches={matches}></ProductMeta>
+        <ProductAddToCart onClick={handleBookClick}>BOOK</ProductAddToCart>
+      </Product>
         
         </>
         
