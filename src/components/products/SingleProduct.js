@@ -15,15 +15,6 @@ export default function SingleProduct ({product, matches}){
     <>
       
     <Product >
-            <ProductImage src={product.image}></ProductImage>
-           
-            
-            <ProductMeta product={product} matches={matches}></ProductMeta>
-           
-            <ProductActionsWrapper >
-                <Stack direction="row">
-                </Stack>
-            </ProductActionsWrapper>
             <ProductAddToCart > BOOK </ProductAddToCart>
             
         </Product>
