@@ -23,7 +23,7 @@ import SendIcon from '@mui/icons-material/Send';
             </FooterTitle>
             <br></br>
             <Typography variant="caption2">
-             Pawprints Petclinic   <br></br>
+             Pawprints Petclinic 
              #73, 14th cross, 3rd main
              Dollars colony
              Bengaluru - 560094
