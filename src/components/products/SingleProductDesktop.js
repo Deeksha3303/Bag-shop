@@ -28,7 +28,7 @@ export default function SingleProductDesktop ({product, matches}){
             <ProductFavButton isfav={1}>
                     <FavoriteBorderOutlined ></FavoriteBorderOutlined> 
                 </ProductFavButton>
-                {showOptions &&( <ProductAddToCart variant="contained"  show={showOptions}>  Add to cart</ProductAddToCart>)}
+                {showOptions &&( <ProductAddToCart variant="contained"  show={showOptions}>  BOOK </ProductAddToCart>)}
             <ProductActionsWrapper show={showOptions} >
                 <Stack direction="column">
                
