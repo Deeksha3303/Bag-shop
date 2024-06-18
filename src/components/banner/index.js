@@ -22,7 +22,7 @@ At our Pawprint Pet Clinic, we treat your pets like family, offering compassiona
                     
                
                 </BannerDescription>
-                <BannerShopButton background="" color="primary">SHOP NOW</BannerShopButton>
+                <BannerShopButton background="" color="primary">BOOK NOW</BannerShopButton>
             </BannerContent>
             
         </BannerContainer>
