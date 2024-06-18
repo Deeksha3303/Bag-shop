@@ -13,9 +13,22 @@ export default function SingleProduct ({product, matches}){
 
     return (
     <>
-  <Product>
+   <Product>
         <ProductImage src={product.image}></ProductImage>
         <ProductMeta product={product} matches={matches}></ProductMeta>
+        <ProductActionsWrapper>
+          <Stack direction="row">
+            <ProductFavButton isfav={1}>
+              <FavoriteBorderOutlined></FavoriteBorderOutlined>
+            </ProductFavButton>
+            <ProductActionButton>
+              <ShareOutlinedIcon></ShareOutlinedIcon>
+            </ProductActionButton>
+            <ProductActionButton>
+              <FitScreenOutlinedIcon></FitScreenOutlinedIcon>
+            </ProductActionButton>
+          </Stack>
+        </ProductActionsWrapper>
         <ProductAddToCart onClick={handleBookClick}>BOOK</ProductAddToCart>
       </Product>
         
