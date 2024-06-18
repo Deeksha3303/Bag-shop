@@ -31,7 +31,7 @@ function App() {
       <div>
         <Typography variant="h4" padding={"4px"} display="flex" alignItems="center" justifyContent={"center"}> Our Products</Typography>
       </div>
-      <Services></Services>
+      <Products></Products>
       <Footer></Footer>
       <AppDrawer></AppDrawer>
       <SearchBox></SearchBox>
