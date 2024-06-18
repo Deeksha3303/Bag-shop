@@ -12,13 +12,17 @@ export default function Banner(){
         <BannerContainer>
             <BannerImage src="/images/banner/banner.png"></BannerImage>
             <BannerContent>
-               
-               
+                <Typography variant="h6">Huge collection</Typography>
+                <BannerTitle variant="h2">
+                    New Bags
+                </BannerTitle>
                 <BannerDescription variant="subtitle">
                    
-                  At our Pawprint Pet Clinic, we treat your pets like family, offering compassionate, comprehensive care with a personal touch. Visit us for top-notch veterinary services that keep your furry friends happy and healthy!
+At our Pawprint Pet Clinic, we treat your pets like family, offering compassionate, comprehensive care with a personal touch. Visit us for top-notch veterinary services that keep your furry friends happy and healthy!
+                    
+               
                 </BannerDescription>
-                <BannerShopButton background="" color="primary">BOOK NOW</BannerShopButton>
+                <BannerShopButton background="" color="primary">SHOP NOW</BannerShopButton>
             </BannerContent>
             
         </BannerContainer>
