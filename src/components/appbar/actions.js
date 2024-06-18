@@ -20,13 +20,13 @@ import { Colors } from "../../styles/theme";
            
             <ListItemButton sx={{justifyContent:"center"}}>
                 <ListItemIcon sx={{display:"flex",justifyContent:"center",color:matches&& Colors.secondary}}>
-                    <PersonOutlineOutlinedIcon></PersonOutlineOutlinedIcon>
+                   
                     <Divider orientation="vertical" flexItem></Divider>
                 </ListItemIcon>
             </ListItemButton>
             <ListItemButton sx={{justifyContent:"center"}}>
                 <ListItemIcon sx={{display:"flex",justifyContent:"center",color:matches&& Colors.secondary}}>
-                    <FavoriteBorderOutlinedIcon></FavoriteBorderOutlinedIcon>
+                   
                     <Divider orientation="vertical" flexItem></Divider>
                 </ListItemIcon>
             </ListItemButton>
